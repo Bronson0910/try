@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+h1 {
+    font-size: 10em;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Anton;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+h4 {
+    font-size: 10;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    font-weight: lighter;
+    top: 50%;
+    left: 10%;
+    transform: translate(-20%);
+}
+
+.center-img {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.center-img img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    height: 700px;
+    width: 700px;
+    border-radius: 10px;
+}
+
+.video-gallery {
+    max-width: 250px;
+    margin-right: 90px;
+    margin-left: -150px;
+    flex-grow: 1;
+    margin-top: 70px;
+}
+
+video {
+    width: 250%;
+    height: auto;
+    border-radius: 20px;
+}
+body {
+    font-family: Alegreria sans cf;
+    margin: 0;
+    padding: 0;
+    background-color: #343434;
+    color: #343434;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+</style>
+<body>
+  <div class="section-bx" style="text-align: center;">
+    <a href="index.html" style="color: gray; text-decoration: none;">Home /</a>&nbsp;&nbsp;&nbsp;
+    <a href="bio.html" style="color: gray; text-decoration: none;">Biography /</a>&nbsp;&nbsp;&nbsp;
+    <a href="skills.html" style="color: gray; text-decoration: none;">Skills /</a>&nbsp;&nbsp;&nbsp;
+    <a href="resume.html" style="color: gray; text-decoration: none;">Resume /</a>&nbsp;&nbsp;&nbsp;
+    <a href="media.html" style="color: gray; text-decoration: none;">Media /</a>&nbsp;&nbsp;&nbsp;
+    <a href="Photogallery.html" style="color: gray; text-decoration: none;">Photos /</a>&nbsp;&nbsp;&nbsp;
+    <a href="DreamPlacestoVisit.html" style="color: gray; text-decoration: none;">Dream Place /</a>&nbsp;&nbsp;&nbsp;
+    <a href="Bucketlist.html" style="color: gray; text-decoration: none;">Bucketlist /</a>&nbsp;&nbsp;&nbsp;
+    <a href="MyTheOne.html" style="color: gray; text-decoration: none;">My Status /</a>&nbsp;&nbsp;&nbsp;
+    <a href="contact.html" style="color: gray; text-decoration: none;">Contact</a>
+</div>
+  
+    <div align="center">
+        <h1>WILBRONSON</h1>
+        <h4>Student of<br>University of the East</h4>
+    </div>
+
+    <div class="center-img">
+        <img src="media/gonao (1).png" alt="Profile Image"/>
+        <div class="video-gallery">
+            <video controls>
+                <source src="media/4705c775-d157-47d4-8034-9bb360fa0385.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    
+</body>
+</html>
